@@ -134,7 +134,7 @@ public class AugmentedFacesActivity extends AppCompatActivity implements GLSurfa
         // permission on Android M and above, now is a good time to ask the user for it.
         // ARCore требует разрешения камеры для работы.
         // Если мы еще не получили разрешение на выполнение на Android M и более поздних версиях,
-        // сейчас хорошее время попросить об этом пользователя
+        // сейчас хорошее время попросить об этом пользователя.
 
         if (!CameraPermissionHelper.hasCameraPermission(this)) {
           CameraPermissionHelper.requestCameraPermission(this);
